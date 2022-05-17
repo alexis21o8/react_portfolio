@@ -13,12 +13,12 @@ const Skills = () => {
           <div className='skills_content'>
             {frontendSkills.map((fe) => (
               <article className='skills_details' key={fe.id}>
-              <BsPatchCheckFill className='skills_details-icon' />
-              <div>
-                <h4>{fe.skill}</h4>
-                <small className='text-light'>{fe.level}</small>
-              </div>
-            </article>
+                <BsPatchCheckFill className='skills_details-icon' />
+                <div>
+                  <h4>{fe.skill}</h4>
+                  <small className='text-light'>{fe.level}</small>
+                </div>
+              </article>
             ))}
           </div>
         </div>

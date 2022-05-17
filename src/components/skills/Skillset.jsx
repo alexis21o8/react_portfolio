@@ -6,12 +6,12 @@ export const frontendSkills = [
     },
     {
         id: 2,
-        skill: 'CSS',
+        skill: 'HTML',
         level: 'Experienced',
     },
     {
         id: 3,
-        skill: 'HTML',
+        skill: 'CSS',
         level: 'Experienced',
     },
     {
@@ -21,7 +21,7 @@ export const frontendSkills = [
     },
     {
         id: 5,
-        skill: 'Material-UI',
+        skill: 'Redux',
         level: 'Intermediate',
     },
     {
@@ -31,7 +31,17 @@ export const frontendSkills = [
     },
     {
         id: 7,
+        skill: 'Material-UI',
+        level: 'Intermediate',
+    },
+    {
+        id: 8,
         skill: 'SASS',
+        level: 'Intermediate',
+    },
+    {
+        id: 9,
+        skill: 'Styled-Components',
         level: 'Intermediate',
     },
 ];
@@ -44,22 +54,22 @@ export const backendSkills = [
     },
     {
         id: 2,
-        skill: 'Python',
-        level: 'intermediate',
+        skill: 'Firebase',
+        level: 'Basic',
     },
     {
         id: 3,
-        skill: 'Firebase',
-        level: 'intermediate',
+        skill: 'MySQL',
+        level: 'Basic',
     },
     {
         id: 4,
-        skill: 'MySQL',
-        level: 'basic',
+        skill: 'PostgreSQL',
+        level: 'Basic',
     },
     {
         id: 5,
         skill: 'MongoDB',
-        level: 'basic',
+        level: 'Basic',
     },
 ];

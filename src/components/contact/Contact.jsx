@@ -26,20 +26,20 @@ const Contact = () => {
           <article className='contact_option'>
             <BiMailSend className='contact_option-icon' />
             <h4>Email</h4>
-            <h5>menghan_chen@outlook.com</h5>
+            <h5>m-alexischen@outlook.com</h5>
             <a href='mailto:menghan_chen@outlook.com' target='_blank' >Send a Message</a>
           </article>
           <article className='contact_option'>
             <FiLinkedin className='contact_option-icon' />
             <h4>LinkedIn</h4>
-            <h5>Alexis Chen</h5>
-            <a href='linkedin.com' target='_blank' >View on LinkedIn</a>
+            <h5>Menghan Alexis Chen</h5>
+            <a href='https://www.linkedin.com/in/m-alexischen/' target='_blank' >View on LinkedIn</a>
           </article>
           <article className='contact_option'>
             <FiGithub className='contact_option-icon' />
             <h4>Github</h4>
-            <h5>alexis21o8</h5>
-            <a href='github.com' target='_blank' >Check My Repo</a>
+            <h5>Alexis Chen</h5>
+            <a href='https://github.com/m-alexischen' target='_blank' >Check My Repo</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

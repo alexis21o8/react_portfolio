@@ -1,10 +1,10 @@
-import CV from '../../assets/blank.pdf';
+import CV from '../../assets/resume.pdf';
 
 const CTA = () => {
     return (
         <div className='cta'>
-            <a className='btn' href={CV} download>Download CV</a>
-            <a className='btn btn-primary' href='#contact'>Let's Talk</a>
+            <a href={CV} download className='btn'>Download CV</a>
+            <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
     )
 };

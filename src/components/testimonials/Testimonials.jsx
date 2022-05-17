@@ -26,6 +26,7 @@ const Testimonials = () => {
               <img src={person.img} alt={person.name} />
             </div>
             <h5 className='person_name'>{person.name}</h5>
+            <h6 className='person_title'>{person.title}</h6>
             <small className='person_review'>{person.review}</small>
           </SwiperSlide>
         ))}
