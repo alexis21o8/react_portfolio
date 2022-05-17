@@ -15,7 +15,7 @@ export const portfolioCases = [
         image: IMG2,
         title: 'Recipe Application',
         github: 'https://github.com/m-alexischen/drinkcipe',
-        demo: 'https://github.com',
+        demo: 'https://drinkcipe.netlify.app',
     },
     {
         id: 3,

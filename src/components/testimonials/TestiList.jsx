@@ -13,8 +13,8 @@ export const testiList = [
         id: 2,
         img: AVTR2,
         name: 'Henry Lin',
-        title: 'Developer of Amazon',
-        review: 'Obcaecati accusantium repellat odit. Adipisicing elit. Obcaecati accusantium repellat odit. Voluptatibus nesciunt volu fuga!',
+        title: 'Software Development Engineer of Amazon',
+        review: `It's a great experience to work with Alexis on our side project. Although it's just a short-term collaboration, her potential talents as a Front-end Developer is shown in her UI design, programming skill, and engineering thinking.`,
     },
     {
         id: 3,
